@@ -1,0 +1,501 @@
+ID_Pengiriman,Jarak_Pengiriman_KM,Jumlah_Transit,Jenis_Layanan,Status_Keterlambatan
+EXP-000001,564.94,4,Sameday,Tepat Waktu
+EXP-000002,1426.32,0,Kargo,Terlambat
+EXP-000003,1099.33,3,Ekspres,Tepat Waktu
+EXP-000004,899.99,3,Ekspres,Tepat Waktu
+EXP-000005,238.25,1,Reguler,Tepat Waktu
+EXP-000006,238.21,3,Ekspres,Terlambat
+EXP-000007,91.84,2,Reguler,Tepat Waktu
+EXP-000008,1299.93,3,Reguler,Tepat Waktu
+EXP-000009,903.67,0,Kargo,Tepat Waktu
+EXP-000010,1063.57,0,Ekspres,Tepat Waktu
+EXP-000011,35.77,3,Reguler,Terlambat
+EXP-000012,1455.02,0,Sameday,Tepat Waktu
+EXP-000013,1249.5,1,Kargo,Tepat Waktu
+EXP-000014,322.45,1,Ekspres,Terlambat
+EXP-000015,276.83,0,Kargo,Tepat Waktu
+EXP-000016,279.19,0,Ekspres,Terlambat
+EXP-000017,459.84,2,Kargo,Tepat Waktu
+EXP-000018,789.51,4,Sameday,Tepat Waktu
+EXP-000019,650.76,1,Ekspres,Tepat Waktu
+EXP-000020,440.39,1,Sameday,Tepat Waktu
+EXP-000021,919.72,2,Reguler,Tepat Waktu
+EXP-000022,213.54,4,Reguler,Tepat Waktu
+EXP-000023,441.76,0,Kargo,Terlambat
+EXP-000024,552.71,1,Ekspres,Tepat Waktu
+EXP-000025,686.82,3,Kargo,Tepat Waktu
+EXP-000026,1178.84,2,Sameday,Tepat Waktu
+EXP-000027,303.51,3,Reguler,Tepat Waktu
+EXP-000028,773.78,1,Sameday,Tepat Waktu
+EXP-000029,890.66,2,Reguler,Terlambat
+EXP-000030,74.44,2,Ekspres,Tepat Waktu
+EXP-000031,913.28,3,Reguler,Tepat Waktu
+EXP-000032,259.93,3,Kargo,Tepat Waktu
+EXP-000033,102.25,2,Sameday,Tepat Waktu
+EXP-000034,1423.58,4,Kargo,Tepat Waktu
+EXP-000035,1448.62,3,Reguler,Tepat Waktu
+EXP-000036,1213.55,2,Sameday,Terlambat
+EXP-000037,460.4,4,Sameday,Tepat Waktu
+EXP-000038,151.02,4,Kargo,Tepat Waktu
+EXP-000039,1027.93,2,Sameday,Tepat Waktu
+EXP-000040,663.03,4,Ekspres,Tepat Waktu
+EXP-000041,187.45,1,Ekspres,Tepat Waktu
+EXP-000042,745.29,3,Kargo,Tepat Waktu
+EXP-000043,56.41,1,Sameday,Terlambat
+EXP-000044,1364.43,2,Kargo,Terlambat
+EXP-000045,391.88,4,Reguler,Tepat Waktu
+EXP-000046,995.47,2,Reguler,Tepat Waktu
+EXP-000047,471.01,1,Sameday,Tepat Waktu
+EXP-000048,782.5,3,Kargo,Tepat Waktu
+EXP-000049,822.33,0,Kargo,Tepat Waktu
+EXP-000050,281.36,2,Kargo,Tepat Waktu
+EXP-000051,1454.53,2,Kargo,Tepat Waktu
+EXP-000052,1163.82,2,Ekspres,Terlambat
+EXP-000053,1409.55,2,Ekspres,Tepat Waktu
+EXP-000054,1342.77,4,Kargo,Tepat Waktu
+EXP-000055,898.86,2,Sameday,Terlambat
+EXP-000056,1383.2,3,Reguler,Terlambat
+EXP-000057,137.3,4,Ekspres,Tepat Waktu
+EXP-000058,297.99,1,Kargo,Tepat Waktu
+EXP-000059,72.61,0,Ekspres,Tepat Waktu
+EXP-000060,491.37,0,Ekspres,Tepat Waktu
+EXP-000061,586.07,1,Sameday,Tepat Waktu
+EXP-000062,410.67,3,Reguler,Tepat Waktu
+EXP-000063,1243.96,4,Ekspres,Tepat Waktu
+EXP-000064,538.35,4,Sameday,Terlambat
+EXP-000065,425.0,4,Reguler,Terlambat
+EXP-000066,816.33,2,Kargo,Tepat Waktu
+EXP-000067,215.68,3,Kargo,Terlambat
+EXP-000068,1204.28,1,Ekspres,Tepat Waktu
+EXP-000069,116.45,1,Sameday,Terlambat
+EXP-000070,1480.4,3,Reguler,Terlambat
+EXP-000071,1159.51,0,Kargo,Tepat Waktu
+EXP-000072,302.08,1,Kargo,Tepat Waktu
+EXP-000073,13.26,4,Reguler,Tepat Waktu
+EXP-000074,1224.11,4,Sameday,Tepat Waktu
+EXP-000075,1061.75,4,Reguler,Tepat Waktu
+EXP-000076,1094.87,4,Sameday,Tepat Waktu
+EXP-000077,1158.05,3,Reguler,Tepat Waktu
+EXP-000078,115.7,0,Ekspres,Tepat Waktu
+EXP-000079,540.91,0,Ekspres,Terlambat
+EXP-000080,178.22,3,Kargo,Tepat Waktu
+EXP-000081,1295.34,1,Sameday,Tepat Waktu
+EXP-000082,936.83,2,Ekspres,Tepat Waktu
+EXP-000083,499.69,4,Ekspres,Tepat Waktu
+EXP-000084,100.02,3,Reguler,Tepat Waktu
+EXP-000085,469.92,4,Kargo,Tepat Waktu
+EXP-000086,491.15,4,Sameday,Terlambat
+EXP-000087,1095.76,4,Reguler,Terlambat
+EXP-000088,958.15,2,Ekspres,Tepat Waktu
+EXP-000089,1331.38,2,Reguler,Tepat Waktu
+EXP-000090,710.96,1,Reguler,Tepat Waktu
+EXP-000091,183.79,2,Kargo,Tepat Waktu
+EXP-000092,1071.3,2,Reguler,Tepat Waktu
+EXP-000093,1142.37,3,Reguler,Tepat Waktu
+EXP-000094,844.11,3,Ekspres,Tepat Waktu
+EXP-000095,1157.6,1,Reguler,Tepat Waktu
+EXP-000096,743.22,4,Sameday,Tepat Waktu
+EXP-000097,786.49,2,Ekspres,Tepat Waktu
+EXP-000098,644.17,2,Reguler,Tepat Waktu
+EXP-000099,43.0,2,Sameday,Tepat Waktu
+EXP-000100,166.3,1,Kargo,Tepat Waktu
+EXP-000101,51.99,2,Kargo,Tepat Waktu
+EXP-000102,956.43,3,Reguler,Tepat Waktu
+EXP-000103,474.96,0,Reguler,Terlambat
+EXP-000104,765.31,4,Kargo,Tepat Waktu
+EXP-000105,1361.81,1,Kargo,Tepat Waktu
+EXP-000106,377.69,1,Sameday,Tepat Waktu
+EXP-000107,618.52,1,Sameday,Tepat Waktu
+EXP-000108,1134.55,2,Reguler,Tepat Waktu
+EXP-000109,347.05,0,Sameday,Terlambat
+EXP-000110,120.08,0,Ekspres,Tepat Waktu
+EXP-000111,438.18,1,Ekspres,Tepat Waktu
+EXP-000112,246.03,2,Reguler,Tepat Waktu
+EXP-000113,1394.9,3,Kargo,Terlambat
+EXP-000114,1213.14,0,Reguler,Terlambat
+EXP-000115,951.94,3,Reguler,Tepat Waktu
+EXP-000116,1307.83,0,Reguler,Tepat Waktu
+EXP-000117,1206.49,3,Reguler,Tepat Waktu
+EXP-000118,283.92,2,Reguler,Tepat Waktu
+EXP-000119,1339.38,3,Reguler,Tepat Waktu
+EXP-000120,811.32,4,Kargo,Tepat Waktu
+EXP-000121,1212.12,2,Sameday,Terlambat
+EXP-000122,1344.66,4,Reguler,Terlambat
+EXP-000123,480.42,3,Sameday,Tepat Waktu
+EXP-000124,169.53,2,Sameday,Tepat Waktu
+EXP-000125,345.76,4,Sameday,Tepat Waktu
+EXP-000126,643.53,0,Ekspres,Tepat Waktu
+EXP-000127,1227.93,0,Sameday,Tepat Waktu
+EXP-000128,1291.79,4,Kargo,Tepat Waktu
+EXP-000129,15.39,2,Ekspres,Tepat Waktu
+EXP-000130,768.57,2,Reguler,Tepat Waktu
+EXP-000131,629.03,2,Ekspres,Tepat Waktu
+EXP-000132,337.05,4,Sameday,Tepat Waktu
+EXP-000133,184.2,3,Kargo,Tepat Waktu
+EXP-000134,509.73,0,Reguler,Tepat Waktu
+EXP-000135,1414.65,3,Sameday,Tepat Waktu
+EXP-000136,488.19,1,Sameday,Terlambat
+EXP-000137,780.59,1,Reguler,Tepat Waktu
+EXP-000138,1056.01,4,Sameday,Terlambat
+EXP-000139,548.63,4,Ekspres,Tepat Waktu
+EXP-000140,1457.81,3,Sameday,Tepat Waktu
+EXP-000141,1443.86,2,Reguler,Terlambat
+EXP-000142,381.41,2,Ekspres,Tepat Waktu
+EXP-000143,748.39,1,Ekspres,Tepat Waktu
+EXP-000144,454.81,1,Ekspres,Tepat Waktu
+EXP-000145,430.84,4,Kargo,Tepat Waktu
+EXP-000146,60.15,2,Kargo,Tepat Waktu
+EXP-000147,916.3,1,Sameday,Tepat Waktu
+EXP-000148,756.51,1,Kargo,Tepat Waktu
+EXP-000149,81.96,2,Reguler,Tepat Waktu
+EXP-000150,421.58,3,Kargo,Tepat Waktu
+EXP-000151,1362.86,1,Ekspres,Tepat Waktu
+EXP-000152,363.15,4,Ekspres,Tepat Waktu
+EXP-000153,221.62,3,Ekspres,Tepat Waktu
+EXP-000154,736.73,0,Ekspres,Tepat Waktu
+EXP-000155,1478.55,1,Kargo,Terlambat
+EXP-000156,366.87,4,Kargo,Tepat Waktu
+EXP-000157,1009.84,0,Reguler,Tepat Waktu
+EXP-000158,1143.62,2,Reguler,Tepat Waktu
+EXP-000159,360.27,1,Sameday,Tepat Waktu
+EXP-000160,1093.68,0,Reguler,Tepat Waktu
+EXP-000161,554.84,1,Reguler,Tepat Waktu
+EXP-000162,950.3,3,Kargo,Terlambat
+EXP-000163,952.13,4,Ekspres,Terlambat
+EXP-000164,805.98,3,Reguler,Terlambat
+EXP-000165,139.98,4,Ekspres,Tepat Waktu
+EXP-000166,1253.78,3,Kargo,Tepat Waktu
+EXP-000167,484.57,1,Ekspres,Tepat Waktu
+EXP-000168,283.85,4,Sameday,Terlambat
+EXP-000169,65.96,4,Ekspres,Terlambat
+EXP-000170,888.38,2,Ekspres,Tepat Waktu
+EXP-000171,1017.96,2,Kargo,Tepat Waktu
+EXP-000172,29.8,2,Kargo,Tepat Waktu
+EXP-000173,770.58,4,Sameday,Terlambat
+EXP-000174,343.61,0,Kargo,Terlambat
+EXP-000175,969.53,2,Kargo,Tepat Waktu
+EXP-000176,265.68,1,Reguler,Terlambat
+EXP-000177,1037.95,2,Kargo,Tepat Waktu
+EXP-000178,583.17,0,Kargo,Tepat Waktu
+EXP-000179,1405.41,1,Kargo,Tepat Waktu
+EXP-000180,210.59,3,Sameday,Terlambat
+EXP-000181,514.89,3,Kargo,Tepat Waktu
+EXP-000182,174.64,3,Kargo,Terlambat
+EXP-000183,1387.42,3,Kargo,Tepat Waktu
+EXP-000184,1316.62,2,Ekspres,Tepat Waktu
+EXP-000185,390.62,2,Kargo,Terlambat
+EXP-000186,991.68,2,Sameday,Tepat Waktu
+EXP-000187,1226.75,0,Kargo,Terlambat
+EXP-000188,835.03,0,Ekspres,Terlambat
+EXP-000189,796.83,1,Ekspres,Tepat Waktu
+EXP-000190,366.57,1,Kargo,Terlambat
+EXP-000191,144.19,1,Sameday,Terlambat
+EXP-000192,1346.34,0,Reguler,Terlambat
+EXP-000193,1351.12,4,Reguler,Tepat Waktu
+EXP-000194,951.49,1,Kargo,Tepat Waktu
+EXP-000195,511.85,0,Reguler,Tepat Waktu
+EXP-000196,527.07,4,Ekspres,Tepat Waktu
+EXP-000197,1090.3,4,Reguler,Tepat Waktu
+EXP-000198,1346.18,2,Kargo,Tepat Waktu
+EXP-000199,1331.19,2,Ekspres,Tepat Waktu
+EXP-000200,1170.91,3,Reguler,Tepat Waktu
+EXP-000201,964.84,1,Kargo,Tepat Waktu
+EXP-000202,130.79,1,Sameday,Tepat Waktu
+EXP-000203,246.63,2,Reguler,Tepat Waktu
+EXP-000204,1348.34,4,Reguler,Tepat Waktu
+EXP-000205,911.61,3,Sameday,Tepat Waktu
+EXP-000206,18.75,4,Kargo,Tepat Waktu
+EXP-000207,156.7,1,Sameday,Tepat Waktu
+EXP-000208,996.94,2,Sameday,Terlambat
+EXP-000209,12.57,1,Sameday,Terlambat
+EXP-000210,245.41,4,Kargo,Terlambat
+EXP-000211,825.36,0,Ekspres,Tepat Waktu
+EXP-000212,1039.38,3,Kargo,Tepat Waktu
+EXP-000213,979.68,2,Sameday,Tepat Waktu
+EXP-000214,340.28,1,Kargo,Tepat Waktu
+EXP-000215,1069.71,3,Reguler,Tepat Waktu
+EXP-000216,359.69,1,Ekspres,Terlambat
+EXP-000217,491.47,0,Sameday,Tepat Waktu
+EXP-000218,1121.0,0,Sameday,Tepat Waktu
+EXP-000219,976.2,1,Ekspres,Tepat Waktu
+EXP-000220,1274.59,0,Sameday,Tepat Waktu
+EXP-000221,988.13,1,Reguler,Tepat Waktu
+EXP-000222,854.62,1,Ekspres,Terlambat
+EXP-000223,145.04,2,Reguler,Tepat Waktu
+EXP-000224,554.74,4,Sameday,Terlambat
+EXP-000225,401.48,0,Kargo,Tepat Waktu
+EXP-000226,369.76,0,Sameday,Terlambat
+EXP-000227,1459.65,0,Reguler,Tepat Waktu
+EXP-000228,592.68,3,Ekspres,Terlambat
+EXP-000229,1338.61,4,Sameday,Tepat Waktu
+EXP-000230,948.55,1,Sameday,Terlambat
+EXP-000231,1193.24,2,Kargo,Tepat Waktu
+EXP-000232,756.44,3,Sameday,Tepat Waktu
+EXP-000233,867.47,0,Sameday,Tepat Waktu
+EXP-000234,741.31,1,Kargo,Tepat Waktu
+EXP-000235,296.89,4,Sameday,Tepat Waktu
+EXP-000236,1085.07,0,Kargo,Terlambat
+EXP-000237,424.75,3,Sameday,Tepat Waktu
+EXP-000238,41.35,4,Kargo,Tepat Waktu
+EXP-000239,969.98,4,Sameday,Tepat Waktu
+EXP-000240,269.78,1,Ekspres,Tepat Waktu
+EXP-000241,1410.99,0,Ekspres,Tepat Waktu
+EXP-000242,1431.12,4,Reguler,Tepat Waktu
+EXP-000243,1372.72,2,Sameday,Tepat Waktu
+EXP-000244,558.39,4,Ekspres,Terlambat
+EXP-000245,28.11,4,Reguler,Tepat Waktu
+EXP-000246,1392.84,3,Sameday,Terlambat
+EXP-000247,645.14,2,Reguler,Tepat Waktu
+EXP-000248,1450.15,4,Ekspres,Terlambat
+EXP-000249,1445.61,3,Reguler,Tepat Waktu
+EXP-000250,1280.25,1,Sameday,Tepat Waktu
+EXP-000251,445.2,2,Reguler,Tepat Waktu
+EXP-000252,580.72,2,Ekspres,Terlambat
+EXP-000253,1277.45,2,Reguler,Tepat Waktu
+EXP-000254,478.8,2,Reguler,Tepat Waktu
+EXP-000255,258.39,0,Kargo,Terlambat
+EXP-000256,837.42,4,Reguler,Tepat Waktu
+EXP-000257,1404.55,2,Reguler,Terlambat
+EXP-000258,1045.56,0,Sameday,Tepat Waktu
+EXP-000259,857.24,0,Ekspres,Terlambat
+EXP-000260,150.28,4,Kargo,Tepat Waktu
+EXP-000261,924.44,1,Ekspres,Terlambat
+EXP-000262,1485.13,2,Ekspres,Terlambat
+EXP-000263,214.43,1,Reguler,Tepat Waktu
+EXP-000264,779.9,2,Reguler,Terlambat
+EXP-000265,1316.67,4,Reguler,Tepat Waktu
+EXP-000266,1112.45,2,Reguler,Tepat Waktu
+EXP-000267,1047.04,0,Reguler,Terlambat
+EXP-000268,1055.21,4,Sameday,Tepat Waktu
+EXP-000269,542.44,3,Ekspres,Tepat Waktu
+EXP-000270,443.92,4,Reguler,Tepat Waktu
+EXP-000271,1214.99,4,Kargo,Terlambat
+EXP-000272,1216.12,2,Ekspres,Tepat Waktu
+EXP-000273,1301.27,4,Reguler,Terlambat
+EXP-000274,1370.29,0,Ekspres,Tepat Waktu
+EXP-000275,769.46,3,Ekspres,Tepat Waktu
+EXP-000276,754.77,3,Ekspres,Terlambat
+EXP-000277,1198.45,2,Ekspres,Tepat Waktu
+EXP-000278,976.7,4,Sameday,Terlambat
+EXP-000279,1054.44,2,Kargo,Tepat Waktu
+EXP-000280,1194.71,2,Ekspres,Tepat Waktu
+EXP-000281,1335.56,4,Reguler,Tepat Waktu
+EXP-000282,510.3,2,Sameday,Terlambat
+EXP-000283,566.5,2,Reguler,Terlambat
+EXP-000284,145.5,4,Kargo,Tepat Waktu
+EXP-000285,869.53,1,Sameday,Tepat Waktu
+EXP-000286,58.73,2,Sameday,Tepat Waktu
+EXP-000287,701.07,2,Sameday,Tepat Waktu
+EXP-000288,816.25,1,Sameday,Tepat Waktu
+EXP-000289,433.38,0,Sameday,Tepat Waktu
+EXP-000290,888.3,1,Reguler,Tepat Waktu
+EXP-000291,50.6,0,Reguler,Tepat Waktu
+EXP-000292,60.84,0,Sameday,Tepat Waktu
+EXP-000293,1234.79,3,Sameday,Terlambat
+EXP-000294,543.49,4,Ekspres,Terlambat
+EXP-000295,194.96,3,Sameday,Tepat Waktu
+EXP-000296,785.75,3,Ekspres,Tepat Waktu
+EXP-000297,1156.14,0,Kargo,Tepat Waktu
+EXP-000298,327.65,0,Ekspres,Tepat Waktu
+EXP-000299,936.22,0,Sameday,Tepat Waktu
+EXP-000300,132.59,3,Sameday,Tepat Waktu
+EXP-000301,82.26,3,Reguler,Terlambat
+EXP-000302,799.38,1,Kargo,Tepat Waktu
+EXP-000303,813.25,3,Reguler,Tepat Waktu
+EXP-000304,957.96,1,Ekspres,Tepat Waktu
+EXP-000305,1090.51,3,Reguler,Tepat Waktu
+EXP-000306,1463.9,0,Sameday,Tepat Waktu
+EXP-000307,776.87,2,Sameday,Tepat Waktu
+EXP-000308,487.82,4,Sameday,Terlambat
+EXP-000309,1193.8,2,Reguler,Tepat Waktu
+EXP-000310,409.89,4,Reguler,Terlambat
+EXP-000311,661.26,2,Kargo,Tepat Waktu
+EXP-000312,122.29,0,Kargo,Tepat Waktu
+EXP-000313,42.9,2,Reguler,Terlambat
+EXP-000314,1444.16,4,Reguler,Tepat Waktu
+EXP-000315,1254.79,4,Kargo,Tepat Waktu
+EXP-000316,1045.48,3,Ekspres,Terlambat
+EXP-000317,616.38,1,Sameday,Tepat Waktu
+EXP-000318,264.08,2,Reguler,Terlambat
+EXP-000319,238.87,0,Sameday,Tepat Waktu
+EXP-000320,379.11,0,Ekspres,Tepat Waktu
+EXP-000321,826.09,1,Kargo,Tepat Waktu
+EXP-000322,1073.32,2,Reguler,Tepat Waktu
+EXP-000323,992.0,1,Sameday,Tepat Waktu
+EXP-000324,423.5,2,Sameday,Tepat Waktu
+EXP-000325,1432.52,0,Reguler,Tepat Waktu
+EXP-000326,1108.16,0,Sameday,Tepat Waktu
+EXP-000327,833.76,0,Sameday,Tepat Waktu
+EXP-000328,919.52,3,Ekspres,Tepat Waktu
+EXP-000329,632.3,2,Reguler,Terlambat
+EXP-000330,375.36,2,Sameday,Terlambat
+EXP-000331,537.18,1,Reguler,Tepat Waktu
+EXP-000332,1137.98,3,Sameday,Tepat Waktu
+EXP-000333,26.52,0,Ekspres,Terlambat
+EXP-000334,178.53,4,Reguler,Tepat Waktu
+EXP-000335,73.77,2,Kargo,Terlambat
+EXP-000336,65.89,0,Ekspres,Tepat Waktu
+EXP-000337,1283.91,0,Ekspres,Terlambat
+EXP-000338,1056.97,2,Reguler,Terlambat
+EXP-000339,713.89,0,Reguler,Tepat Waktu
+EXP-000340,151.26,1,Ekspres,Tepat Waktu
+EXP-000341,739.97,2,Ekspres,Tepat Waktu
+EXP-000342,712.84,2,Reguler,Terlambat
+EXP-000343,263.94,4,Kargo,Terlambat
+EXP-000344,653.61,1,Sameday,Tepat Waktu
+EXP-000345,600.76,2,Ekspres,Tepat Waktu
+EXP-000346,925.7,3,Ekspres,Tepat Waktu
+EXP-000347,954.47,3,Reguler,Tepat Waktu
+EXP-000348,72.73,0,Sameday,Terlambat
+EXP-000349,565.05,0,Kargo,Tepat Waktu
+EXP-000350,940.66,2,Sameday,Tepat Waktu
+EXP-000351,757.19,1,Sameday,Tepat Waktu
+EXP-000352,1285.45,1,Sameday,Tepat Waktu
+EXP-000353,989.75,2,Sameday,Tepat Waktu
+EXP-000354,248.59,2,Reguler,Tepat Waktu
+EXP-000355,110.5,3,Ekspres,Tepat Waktu
+EXP-000356,965.42,3,Reguler,Tepat Waktu
+EXP-000357,44.63,1,Ekspres,Tepat Waktu
+EXP-000358,880.73,2,Ekspres,Tepat Waktu
+EXP-000359,1410.64,3,Ekspres,Tepat Waktu
+EXP-000360,865.33,2,Kargo,Terlambat
+EXP-000361,585.31,1,Kargo,Tepat Waktu
+EXP-000362,966.72,0,Ekspres,Tepat Waktu
+EXP-000363,690.09,0,Sameday,Tepat Waktu
+EXP-000364,820.7,3,Reguler,Tepat Waktu
+EXP-000365,1412.49,2,Reguler,Tepat Waktu
+EXP-000366,582.22,4,Kargo,Tepat Waktu
+EXP-000367,1441.98,2,Sameday,Tepat Waktu
+EXP-000368,1358.5,3,Reguler,Tepat Waktu
+EXP-000369,297.71,4,Sameday,Tepat Waktu
+EXP-000370,108.7,0,Kargo,Tepat Waktu
+EXP-000371,155.66,4,Sameday,Tepat Waktu
+EXP-000372,32.24,0,Sameday,Terlambat
+EXP-000373,146.19,0,Kargo,Tepat Waktu
+EXP-000374,1026.1,1,Reguler,Tepat Waktu
+EXP-000375,111.43,4,Reguler,Tepat Waktu
+EXP-000376,481.87,1,Ekspres,Tepat Waktu
+EXP-000377,1268.09,3,Reguler,Terlambat
+EXP-000378,39.79,2,Sameday,Tepat Waktu
+EXP-000379,1222.63,1,Reguler,Tepat Waktu
+EXP-000380,426.37,2,Kargo,Tepat Waktu
+EXP-000381,181.66,4,Sameday,Tepat Waktu
+EXP-000382,1046.62,2,Kargo,Tepat Waktu
+EXP-000383,945.27,4,Reguler,Tepat Waktu
+EXP-000384,1316.82,4,Reguler,Terlambat
+EXP-000385,1103.93,3,Reguler,Tepat Waktu
+EXP-000386,1206.2,2,Ekspres,Tepat Waktu
+EXP-000387,426.64,0,Reguler,Tepat Waktu
+EXP-000388,270.27,3,Kargo,Terlambat
+EXP-000389,1127.17,3,Sameday,Tepat Waktu
+EXP-000390,1211.22,3,Kargo,Tepat Waktu
+EXP-000391,1485.81,4,Kargo,Tepat Waktu
+EXP-000392,621.86,4,Kargo,Tepat Waktu
+EXP-000393,561.17,3,Reguler,Tepat Waktu
+EXP-000394,1165.74,1,Kargo,Tepat Waktu
+EXP-000395,514.5,3,Reguler,Terlambat
+EXP-000396,1396.48,0,Ekspres,Tepat Waktu
+EXP-000397,1288.33,0,Sameday,Tepat Waktu
+EXP-000398,646.35,3,Sameday,Tepat Waktu
+EXP-000399,1127.55,2,Ekspres,Tepat Waktu
+EXP-000400,1133.04,1,Ekspres,Tepat Waktu
+EXP-000401,159.17,3,Ekspres,Tepat Waktu
+EXP-000402,1354.32,3,Reguler,Tepat Waktu
+EXP-000403,760.35,2,Sameday,Terlambat
+EXP-000404,1240.55,2,Reguler,Tepat Waktu
+EXP-000405,483.47,3,Reguler,Tepat Waktu
+EXP-000406,1343.81,2,Kargo,Tepat Waktu
+EXP-000407,586.86,1,Reguler,Terlambat
+EXP-000408,21.2,0,Ekspres,Tepat Waktu
+EXP-000409,1358.55,0,Ekspres,Tepat Waktu
+EXP-000410,141.47,2,Sameday,Terlambat
+EXP-000411,482.37,1,Kargo,Tepat Waktu
+EXP-000412,1425.34,2,Kargo,Tepat Waktu
+EXP-000413,1426.16,4,Ekspres,Tepat Waktu
+EXP-000414,862.29,2,Reguler,Tepat Waktu
+EXP-000415,949.6,4,Reguler,Terlambat
+EXP-000416,675.43,4,Reguler,Terlambat
+EXP-000417,443.35,0,Sameday,Tepat Waktu
+EXP-000418,496.35,0,Reguler,Terlambat
+EXP-000419,1010.42,0,Ekspres,Tepat Waktu
+EXP-000420,1129.8,0,Kargo,Tepat Waktu
+EXP-000421,1188.41,2,Sameday,Terlambat
+EXP-000422,1185.48,4,Ekspres,Tepat Waktu
+EXP-000423,141.35,0,Sameday,Tepat Waktu
+EXP-000424,744.16,0,Ekspres,Terlambat
+EXP-000425,91.05,3,Sameday,Terlambat
+EXP-000426,826.55,0,Reguler,Terlambat
+EXP-000427,665.09,4,Ekspres,Tepat Waktu
+EXP-000428,1332.12,0,Kargo,Tepat Waktu
+EXP-000429,529.62,2,Sameday,Tepat Waktu
+EXP-000430,180.02,0,Sameday,Terlambat
+EXP-000431,218.77,2,Sameday,Terlambat
+EXP-000432,1143.46,0,Sameday,Terlambat
+EXP-000433,929.24,0,Reguler,Terlambat
+EXP-000434,156.18,2,Kargo,Tepat Waktu
+EXP-000435,130.74,4,Reguler,Tepat Waktu
+EXP-000436,1052.95,0,Reguler,Terlambat
+EXP-000437,113.78,1,Kargo,Tepat Waktu
+EXP-000438,1233.68,3,Ekspres,Tepat Waktu
+EXP-000439,1060.83,1,Ekspres,Tepat Waktu
+EXP-000440,126.62,3,Sameday,Tepat Waktu
+EXP-000441,131.83,0,Sameday,Tepat Waktu
+EXP-000442,1480.03,1,Kargo,Tepat Waktu
+EXP-000443,564.53,2,Sameday,Tepat Waktu
+EXP-000444,559.11,1,Sameday,Tepat Waktu
+EXP-000445,1220.14,3,Ekspres,Terlambat
+EXP-000446,1421.14,3,Reguler,Terlambat
+EXP-000447,1479.07,3,Ekspres,Terlambat
+EXP-000448,1131.3,2,Sameday,Tepat Waktu
+EXP-000449,567.51,2,Reguler,Tepat Waktu
+EXP-000450,129.83,2,Reguler,Tepat Waktu
+EXP-000451,1166.83,2,Reguler,Tepat Waktu
+EXP-000452,839.81,0,Reguler,Tepat Waktu
+EXP-000453,639.21,0,Sameday,Tepat Waktu
+EXP-000454,1360.0,1,Kargo,Terlambat
+EXP-000455,171.24,0,Reguler,Terlambat
+EXP-000456,741.47,3,Kargo,Tepat Waktu
+EXP-000457,21.97,2,Ekspres,Tepat Waktu
+EXP-000458,705.65,2,Reguler,Terlambat
+EXP-000459,89.17,4,Kargo,Tepat Waktu
+EXP-000460,182.63,3,Sameday,Tepat Waktu
+EXP-000461,180.7,1,Kargo,Tepat Waktu
+EXP-000462,975.57,3,Reguler,Tepat Waktu
+EXP-000463,1120.34,0,Ekspres,Tepat Waktu
+EXP-000464,877.14,1,Ekspres,Tepat Waktu
+EXP-000465,1443.45,1,Reguler,Terlambat
+EXP-000466,565.43,2,Reguler,Tepat Waktu
+EXP-000467,432.14,4,Ekspres,Tepat Waktu
+EXP-000468,1303.56,1,Kargo,Tepat Waktu
+EXP-000469,339.28,3,Reguler,Tepat Waktu
+EXP-000470,1445.02,1,Sameday,Tepat Waktu
+EXP-000471,23.17,2,Sameday,Tepat Waktu
+EXP-000472,1454.97,2,Kargo,Terlambat
+EXP-000473,69.52,1,Reguler,Terlambat
+EXP-000474,1337.26,3,Reguler,Tepat Waktu
+EXP-000475,793.91,2,Kargo,Tepat Waktu
+EXP-000476,1489.48,0,Ekspres,Tepat Waktu
+EXP-000477,115.33,2,Sameday,Terlambat
+EXP-000478,833.01,2,Reguler,Terlambat
+EXP-000479,1454.11,3,Sameday,Tepat Waktu
+EXP-000480,787.03,1,Sameday,Tepat Waktu
+EXP-000481,945.95,0,Reguler,Tepat Waktu
+EXP-000482,1045.14,0,Ekspres,Tepat Waktu
+EXP-000483,684.54,2,Sameday,Tepat Waktu
+EXP-000484,943.2,0,Reguler,Tepat Waktu
+EXP-000485,878.55,3,Kargo,Tepat Waktu
+EXP-000486,1352.23,4,Ekspres,Tepat Waktu
+EXP-000487,72.94,3,Reguler,Terlambat
+EXP-000488,425.04,2,Kargo,Tepat Waktu
+EXP-000489,1425.87,0,Sameday,Tepat Waktu
+EXP-000490,1335.94,4,Kargo,Terlambat
+EXP-000491,686.21,2,Reguler,Tepat Waktu
+EXP-000492,932.1,0,Sameday,Terlambat
+EXP-000493,419.68,1,Ekspres,Tepat Waktu
+EXP-000494,286.24,2,Kargo,Tepat Waktu
+EXP-000495,698.23,4,Kargo,Tepat Waktu
+EXP-000496,533.26,3,Ekspres,Tepat Waktu
+EXP-000497,877.57,3,Sameday,Tepat Waktu
+EXP-000498,121.21,3,Kargo,Tepat Waktu
+EXP-000499,1461.72,0,Ekspres,Terlambat
+EXP-000500,1479.39,2,Ekspres,Tepat Waktu
