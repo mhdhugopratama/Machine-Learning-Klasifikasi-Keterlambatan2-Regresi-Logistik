@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "models" / "logistic_regression.pkl"
@@ -24,14 +25,15 @@ def load_resources():
     with open(EVAL_PATH, "r", encoding="utf-8") as f:
         evaluation = json.load(f)
     data = pd.read_csv(DATA_PATH)
-    return model, evaluation, data
+    train_df, test_df = train_test_split(data, test_size=0.2, random_state=42, stratify=data["Status_Keterlambatan"])
+    return model, evaluation, data, train_df, test_df
 
-model, evaluation, df_data = load_resources()
+model, evaluation, df_data, df_train, df_test = load_resources()
 B0, B1, B2, B3 = evaluation["parameters"]["beta_0"], evaluation["parameters"]["beta_1"], evaluation["parameters"]["beta_2"], evaluation["parameters"]["beta_3"]
 LAYANAN_MAP = evaluation["layanan_encoding"]
 DEFAULT_TH = evaluation.get("threshold", 0.25)
 
-tab_prediksi, tab_evaluasi, tab_data = st.tabs(["🔍 Prediksi Pengiriman", "📊 Evaluasi Model", "📁 Dataset"])
+tab_prediksi, tab_evaluasi, tab_data = st.tabs(["🔍 Prediksi Pengiriman", "📊 Evaluasi Model", "📁 Data Split & Dataset"])
 
 with tab_prediksi:
     st.subheader("Simulasi & Prediksi Keterlambatan")
@@ -41,7 +43,7 @@ with tab_prediksi:
     with c2:
         transit = st.number_input("Jumlah Titik Transit (X₂)", min_value=0, max_value=20, value=1, step=1)
     with c3:
-        layanan = st.selectbox("Jenis Layanan (X₃)", list(LAYANAN_MAP.keys()), index=3) # Sameday
+        layanan = st.selectbox("Jenis Layanan (X₃)", list(LAYANAN_MAP.keys()), index=3)
     with c4:
         threshold = st.slider("Ambang Batas (Threshold)", 0.10, 0.50, float(DEFAULT_TH), 0.01)
 
@@ -79,8 +81,7 @@ with tab_prediksi:
         st.code(f"z = {B0} + ({B1}*{jarak:.2f}) + ({B2}*{transit}) + ({B3}*{layanan_code}) = {z:.4f}", language="text")
         st.latex(r"P(Y=1 \mid X) = \frac{1}{1 + e^{-z}}")
         st.code(f"P = 1 / (1 + e^(-({z:.4f}))) = {prob_terlambat:.4f}", language="text")
-        status_teks = "Terlambat" if prediksi == 1 else "Tepat Waktu"
-        st.caption(f"Keputusan: Karena P ({prob_terlambat:.4f}) {'≥' if prediksi==1 else '<'} {threshold:.2f}, maka paket diprediksi **{status_teks}**.")
+        st.caption(f"Keputusan: Karena P ({prob_terlambat:.4f}) {'≥' if prediksi==1 else '<'} {threshold:.2f}, maka paket diprediksi **{'Terlambat' if prediksi==1 else 'Tepat Waktu'}**.")
 
 with tab_evaluasi:
     st.subheader(f"Evaluasi Model (Ambang Batas Keputusan = {DEFAULT_TH:.2f})")
@@ -105,19 +106,26 @@ with tab_evaluasi:
         st.dataframe(cm_df, width="stretch", hide_index=True)
     with c_info:
         st.markdown("**Catatan Penyesuaian Threshold (0.25):**")
-        st.info(
-            f"Dengan menurunkan ambang batas ke **{DEFAULT_TH:.2f}**, model menjadi sangat sensitif mendeteksi keterlambatan. "
-            f"Model berhasil menjaring **{cm['TP']} paket terlambat** (Recall mencapai **{eval_data['recall']:.2%}**), "
-            f"sehingga sistem tidak lagi kaku memprediksi Tepat Waktu saja."
-        )
+        st.info(f"Model menjaring **{cm['TP']} paket terlambat** (Recall {eval_data['recall']:.2%}) pada threshold {DEFAULT_TH:.2f}.")
+
+    if "Data Uji" in pilihan:
+        st.markdown("#### 🧪 Tabel 100 Data Uji (Hasil Split 20%):")
+        df_test_eval = df_test.copy()
+        z_t = B0 + (B1 * df_test_eval["Jarak_Pengiriman_KM"]) + (B2 * df_test_eval["Jumlah_Transit"]) + (B3 * df_test_eval["Jenis_Layanan"].map(LAYANAN_MAP))
+        df_test_eval["Prob_Terlambat"] = (1.0 / (1.0 + np.exp(-z_t))).round(4)
+        df_test_eval["Prediksi"] = np.where(df_test_eval["Prob_Terlambat"] >= DEFAULT_TH, "Terlambat", "Tepat Waktu")
+        df_test_eval["Hasil"] = np.where(df_test_eval["Prediksi"] == df_test_eval["Status_Keterlambatan"], "Benar ✅", "Salah ❌")
+        st.dataframe(df_test_eval, width="stretch")
 
 with tab_data:
-    st.subheader("Ringkasan Dataset Ekspedisi (500 Baris Data)")
+    st.subheader("Data Pengiriman & Hasil Pembagian (Split 80:20)")
+    pilih_split = st.radio("Pilih Tampilan Data:", ["🌐 Seluruh Data (500 Baris)", "🚂 Data Latih / Train (80% = 400 Baris)", "🧪 Data Uji / Test (20% = 100 Baris)"], horizontal=True)
+    tampil_df = df_train if "Train" in pilih_split else (df_test if "Test" in pilih_split else df_data)
+    
     c_d1, c_d2 = st.columns(2)
-    c_d1.write("**Distribusi Target Status Keterlambatan:**")
-    c_d1.dataframe(df_data["Status_Keterlambatan"].value_counts(), width="stretch")
-    c_d2.write("**Distribusi Jenis Layanan:**")
-    c_d2.dataframe(df_data["Jenis_Layanan"].value_counts(), width="stretch")
+    c_d1.metric("Total Baris Data", len(tampil_df))
+    c_d2.write(f"**Distribusi Target ({len(tampil_df)} Baris):**")
+    c_d2.dataframe(tampil_df["Status_Keterlambatan"].value_counts(), width="stretch")
 
-    st.dataframe(df_data.head(100), width="stretch")
-    st.download_button("📥 Unduh Dataset CSV", data=df_data.to_csv(index=False).encode("utf-8"), file_name="dataset_ekspedisi.csv", mime="text/csv")
+    st.dataframe(tampil_df, width="stretch")
+    st.download_button("📥 Unduh CSV", data=tampil_df.to_csv(index=False).encode("utf-8"), file_name=f"{pilih_split[:15]}.csv", mime="text/csv")
